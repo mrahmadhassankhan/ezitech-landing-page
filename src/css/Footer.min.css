@@ -136,6 +136,12 @@
 .mail-ezitech-footer:hover {
   color: #2575ed;
 }
+.copyright-text > p:nth-child(1) {
+  display: none;
+}
+.copyright-text > p:nth-child(2) {
+  display: none;
+}
 
 @media (min-width: 350px) and (max-width: 480px) {
   .about-footer > p {
@@ -158,18 +164,20 @@
   .copyright-text {
     width: 100%;
   }
-  .copyright-text > p {
+  .copyright-text {
     display: flex;
     flex-direction: column;
-    margin-left: 12px;
-    text-wrap: wrap;
-  }
-  .copyright-text > p > a > u {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    text-wrap: wrap;
+    align-items: center;
   }
+  .copyright-text > p:nth-last-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .copyright-text > p:nth-last-child(3) {
+    color: orange;
+  }
+
   .pages-footer > ul > li {
     margin-left: 1rem;
   }
@@ -178,5 +186,12 @@
   .mail-footer > div {
     margin-left: 0;
     margin-right: 1rem;
+  }
+  .copyright-socials-content {
+    margin: 0;
+  }
+
+  .copyright-text > p:nth-child(3) {
+    display: none;
   }
 }

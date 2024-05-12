@@ -114,7 +114,14 @@ const FooterElement = () => {
 
         <div className="copyright-text">
           <p>
-            Copyright@2024 Ezitech Institute|Design & Clone by{" "}
+            Design By &nbsp;
+            <a href="https://linktr.ee/mrahmadhassankhan">
+              <u>Ahmad Hassan Khan</u>
+            </a>
+          </p>
+          <p>Copyrights@2024 Ezitech Institute</p>
+          <p>
+            Copyright@2024 Ezitech Institute | Design & Developed by{" "}
             <a href="https://linktr.ee/mrahmadhassankhan">
               <u>Ahmad Hassan Khan</u>
             </a>

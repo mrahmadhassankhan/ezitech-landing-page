@@ -8,25 +8,19 @@ const Hero = () => {
       <div className="hero-section">
         <div className="hero-text">
           <p className="changing-text">
+            <p>Learn the Fundamentals with our Experts in </p>
+            <p>Utilize Effective Training to Reach your Potential</p>
             <span className="changing-text">
               {
                 <TypeAnimation
                   preRenderFirstString
                   omitDeletionAnimation
-                  sequence={[
-                    "Learn the Fundamentals with our Experts in",
-                    "Learn the Fundamentals with our Experts in Maketing",
-                    1000,
-                    "Learn the Fundamentals with our Experts in Programming",
-                    1000,
-                    "Learn the Fundamentals with our Experts in Web Design",
-                    1000,
-                  ]}
+                  sequence={["Programming", 1000]}
                   wrapper="span"
                   speed={25}
                   repeat={Infinity}
                   style={{
-                    display: "inline-block",
+                    color: "lightgreen",
                   }}
                 ></TypeAnimation>
               }
