@@ -63,7 +63,7 @@
   font-weight: 600;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 350px) and (max-width: 480px) {
   .award-container {
     margin: 0;
   }

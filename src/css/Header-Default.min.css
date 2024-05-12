@@ -61,3 +61,41 @@
 .search-header > a {
   padding: 2px 5px 2px 5px;
 }
+
+.logo-website > img:nth-child(2) {
+  display: none;
+}
+.header-menu > span {
+  display: none;
+}
+@media (min-width: 350px) and (max-width: 480px) {
+  .header-menu > ul {
+    display: none;
+  }
+  .search-with-heart > ul {
+    display: none;
+  }
+  .logo-website > img:nth-child(1) {
+    display: none;
+  }
+  .logo-website > img:nth-child(2) {
+    display: block;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 10px;
+  }
+  .header-menu > span {
+    display: block;
+    margin-right: 1.5rem;
+    font-size: 25px;
+  }
+  .logo-website > img {
+    margin-left: 0;
+  }
+  .search-with-heart {
+    display: none;
+  }
+}

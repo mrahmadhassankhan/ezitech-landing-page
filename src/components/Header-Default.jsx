@@ -8,6 +8,7 @@ const HeaderDefault = () => {
       <div className="header-container">
         <div className="logo-website">
           <img src="/src/Images/EZITECH-LOGO-white.png" alt="logo" />
+          <img src="/src/Images/EZITECH-LOGO-.jpg" alt="" />
         </div>
         <div className="header-menu">
           <ul>
@@ -30,6 +31,9 @@ const HeaderDefault = () => {
               <a href="http://ezitech.org/iportal/">INTERN PORTAL</a>
             </li>
           </ul>
+          <span>
+            <FontAwesomeIcon icon={faBars} color="#2575ed"></FontAwesomeIcon>
+          </span>
         </div>
 
         <div className="search-with-heart">
