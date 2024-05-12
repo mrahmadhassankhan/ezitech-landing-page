@@ -198,4 +198,10 @@
 }
 
 @media (max-width: 300px) {
+  .copyright-text > p:nth-last-child(2) {
+    font-size: 5vw;
+  }
+  .copyright-text > p:nth-last-child(3) {
+    font-size: 5vw;
+  }
 }
