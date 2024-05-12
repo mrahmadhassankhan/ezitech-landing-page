@@ -10,7 +10,7 @@ const Award = () => {
         <div className="award-main">
           <div className="award-image">
             <img
-              src="public/static/images/President-of-pakistan-259x299.png"
+              src="public/static/Images/President-of-pakistan-259x299.png"
               alt=""
             />
           </div>
