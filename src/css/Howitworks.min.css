@@ -41,7 +41,7 @@
   margin-bottom: 1rem;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 765px) {
   .howitworks {
     margin: 0;
   }
@@ -50,5 +50,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 4vw;
+  }
+  .signup-howitworks > div > p,
+  .selectcourse-howitworks > div > p,
+  .startlearning-howitworks > div > p {
+    font-weight: 100;
+    font-size: 2vw;
+    width: 90vw;
   }
 }

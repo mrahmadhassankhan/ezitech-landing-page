@@ -2,10 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin: 2rem 7rem;
 }
-@media (max-width: 575px) {
+@media (max-width: 765px) {
   .courses-container {
-    margin: 0;
+    margin: 2rem 2rem;
+    width: 90vw;
   }
 }
