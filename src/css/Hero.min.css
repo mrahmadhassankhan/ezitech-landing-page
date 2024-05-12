@@ -108,10 +108,6 @@
   .hero-section {
     height: 350px;
   }
-  .changing-text > span {
-    font-size: 25px;
-    font-weight: 600;
-  }
   .form-input {
     display: none;
   }
@@ -126,10 +122,8 @@
     height: 70px;
   }
   .changing-text:nth-child(1) {
-    margin-top: 60px;
     font-size: 1.5em;
     width: 200px;
-    line-height: 25px;
   }
 }
 
@@ -152,6 +146,14 @@
   }
 }
 
+@media (max-width: 1300px) {
+  .changing-text > span {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
 @media (min-width: 476px) and (max-width: 1009px) {
   .below-formtext-images {
     display: none;
@@ -160,14 +162,7 @@
     display: none;
   }
   .changing-text:nth-child(1) {
-    margin-top: 60px;
-    font-size: 25px;
-    width: 500px;
-    line-height: 30px;
-  }
-  .changing-text > span {
-    font-size: 25px;
-    font-weight: 600;
+    margin-bottom: 30px;
   }
   .hero-section {
     height: 350px;

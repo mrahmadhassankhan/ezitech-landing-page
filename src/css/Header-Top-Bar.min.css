@@ -96,3 +96,10 @@
     font-size: 10px;
   }
 }
+
+@media (min-width: 576px) and (max-width: 670px) {
+  .header-top-bar-left > ul {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+}

@@ -114,7 +114,7 @@ const FooterElement = () => {
 
         <div className="copyright-text">
           <p>
-            Design By &nbsp;
+            Developed by &nbsp;
             <a href="https://linktr.ee/mrahmadhassankhan">
               <u>Ahmad Hassan Khan</u>
             </a>
@@ -159,4 +159,3 @@ const FooterElement = () => {
   );
 };
 export default FooterElement;
-``;

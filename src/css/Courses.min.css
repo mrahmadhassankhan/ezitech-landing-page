@@ -5,9 +5,17 @@
   align-items: center;
   margin: 2rem 7rem;
 }
+@media (max-width: 605px) {
+  .courses-container {
+    margin: 2rem 0rem;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 765px) {
   .courses-container {
     margin: 2rem 2rem;
-    width: 90vw;
   }
 }
