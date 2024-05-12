@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-text">
           <p className="changing-text">
             <p>Learn the Fundamentals with our Experts in </p>
-            <p>Utilize Effective Training to Reach your Potential</p>
+            <p>Utilize Effective Training to Reach your Potential!</p>
             <span className="changing-text">
               {
                 <TypeAnimation
@@ -20,7 +20,7 @@ const Hero = () => {
                   speed={25}
                   repeat={Infinity}
                   style={{
-                    color: "lightgreen",
+                    color: "#00C691",
                   }}
                 ></TypeAnimation>
               }

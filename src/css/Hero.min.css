@@ -84,24 +84,33 @@
   align-items: center;
 }
 .below-formtext-images > img {
-  height: 100px;
-  aspect-ratio: 3/2;
-  object-fit: contain;
-  margin: 0rem 0rem 0rem 2rem;
+  margin-left: 2rem;
 }
 
+.below-formtext-images > img:nth-child(3) {
+  width: 271px;
+  height: 132px;
+  padding-bottom: 15px;
+}
+.below-formtext-images > img:nth-child(2) {
+  width: 156px;
+  height: 33px;
+}
+.below-formtext-images > img:nth-child(1) {
+  width: 196px;
+  height: 44px;
+}
 .search-icon-hero:hover {
   cursor: pointer;
 }
 
-@media (min-width: 350px) and (max-width: 480px) {
+@media (max-width: 575px) {
   .hero-section {
-    height: 300px;
+    height: 350px;
   }
   .changing-text > span {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
-    margin-right: 60px;
   }
   .form-input {
     display: none;
@@ -116,9 +125,87 @@
     margin: 0;
     height: 70px;
   }
+  .changing-text:nth-child(1) {
+    margin-top: 60px;
+    font-size: 1.5em;
+    width: 200px;
+    line-height: 25px;
+  }
 }
 
-@media (min-width: 350px) and (max-width: 1009px) {
+@media (max-width: 475px) {
+  .below-formtext-images > img {
+    margin-left: 0.5rem;
+  }
+  .below-formtext-images > img:nth-child(3) {
+    width: 111px;
+    height: 55px;
+    padding-bottom: 8px;
+  }
+  .below-formtext-images > img:nth-child(2) {
+    width: 72px;
+    height: 12px;
+  }
+  .below-formtext-images > img:nth-child(1) {
+    width: 86px;
+    height: 19px;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 1009px) {
+  .below-formtext-images {
+    display: none;
+  }
+  .below-form-text {
+    display: none;
+  }
+  .changing-text:nth-child(1) {
+    margin-top: 60px;
+    font-size: 25px;
+    width: 500px;
+    line-height: 30px;
+  }
+  .changing-text > span {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .hero-section {
+    height: 350px;
+  }
+  .form-input {
+    display: none;
+  }
+  .below-changing-text {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .changing-text:nth-child(1) {
+    margin-top: 60px;
+    font-size: 1.5em;
+    width: 100%;
+    line-height: 25px;
+  }
+  .changing-text > span {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 607px) {
+  .changing-text:nth-child(1) {
+    margin-top: 60px;
+    font-size: 4vw;
+    width: 100%;
+    line-height: 50px;
+  }
+  .changing-text > span {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+}
+@media (max-width: 1010px) {
   .changing-text > p:nth-child(1) {
     display: none;
   }
