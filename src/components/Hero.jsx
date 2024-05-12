@@ -49,9 +49,9 @@ const Hero = () => {
           <p className="below-form-text">Explore our more useful products 🤍</p>
         </div>
         <div className="below-formtext-images">
-          <img src="/src/Images/EZIBLOGS-DG.png" alt="" />
-          <img src="/src/Images/white-ezipos.png" alt="" />
-          <img src="/src/Images/white-lgooo-01.png" alt="" />
+          <img src="public/static/images/EZIBLOGS-DG.png" alt="" />
+          <img src="public/static/images/white-ezipos.png" alt="" />
+          <img src="public/static/images/white-lgooo-01.png" alt="" />
         </div>
       </div>
     </>

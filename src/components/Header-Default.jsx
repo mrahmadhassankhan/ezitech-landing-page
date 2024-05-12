@@ -7,8 +7,8 @@ const HeaderDefault = () => {
     <>
       <div className="header-container">
         <div className="logo-website">
-          <img src="/src/Images/EZITECH-LOGO-white.png" alt="logo" />
-          <img src="/src/Images/EZITECH-LOGO-.jpg" alt="" />
+          <img src="public/static/images/EZITECH-LOGO-white.png" alt="logo" />
+          <img src="public/static/images/EZITECH-LOGO-.jpg" alt="" />
         </div>
         <div className="header-menu">
           <ul>

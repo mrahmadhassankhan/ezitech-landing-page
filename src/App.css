@@ -1,5 +1,5 @@
 .image-header-back {
-  background: url("../src/Images/hero.jpg");
+  background: url("../public/static/images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
