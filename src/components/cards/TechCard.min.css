@@ -12,7 +12,7 @@
 }
 
 .techcard-container:hover {
-  transform: translateY(-15px);
+  transform: translateY(-16px);
   cursor: pointer;
 }
 
