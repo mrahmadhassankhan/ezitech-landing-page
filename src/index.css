@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --masterstudy-color--primary-100: #227aff;
+  --masterstudy-color--primary-70: rgba(34, 122, 255, 0.7);
+  --masterstudy-color--primary-50: rgba(34, 122, 255, 0.5);
+  --masterstudy-color--primary-30: rgba(34, 122, 255, 0.3);
+  --masterstudy-color--primary-10: rgba(34, 122, 255, 0.1);
+  --masterstudy-color--primary-5: rgba(34, 122, 255, 0.05);
+  --masterstudy-color--secondary-100: #fff;
+  --masterstudy-color--secondary-80: hsla(0, 0%, 100%, 0.8);
+  --masterstudy-color--secondary-70: hsla(0, 0%, 100%, 0.7);
+  --masterstudy-color--secondary-50: hsla(0, 0%, 100%, 0.5);
+  --masterstudy-color--secondary-30: hsla(0, 0%, 100%, 0.3);
+  --masterstudy-color--secondary-10: hsla(0, 0%, 100%, 0.1);
+  --masterstudy-color--secondary-5: hsla(0, 0%, 100%, 0.05);
+  --masterstudy-color--primary-hover: rgba(34, 122, 255, 0.85);
+  --masterstudy-color--warning-100: #ffa800;
+  --masterstudy-color--warning-70: rgba(255, 168, 0, 0.7);
+  --masterstudy-color--warning-50: rgba(255, 168, 0, 0.5);
+  --masterstudy-color--warning-30: rgba(255, 168, 0, 0.3);
+  --masterstudy-color--warning-10: rgba(255, 168, 0, 0.1);
+  --masterstudy-color--warning-5: rgba(255, 168, 0, 0.05);
+  --masterstudy-color--warning-hover: rgba(255, 168, 0, 0.85);
+  --masterstudy-color--danger-100: #ff3945;
+  --masterstudy-color--danger-70: rgba(255, 57, 69, 0.7);
+  --masterstudy-color--danger-50: rgba(255, 57, 69, 0.5);
+  --masterstudy-color--danger-30: rgba(255, 57, 69, 0.3);
+  --masterstudy-color--danger-10: rgba(255, 57, 69, 0.1);
+  --masterstudy-color--danger-5: rgba(255, 57, 69, 0.05);
+  --masterstudy-color--danger-hover: rgba(255, 57, 69, 0.85);
+  --masterstudy-color--success-100: #61cc2f;
+  --masterstudy-color--success-70: rgba(97, 204, 47, 0.7);
+  --masterstudy-color--success-50: rgba(97, 204, 47, 0.5);
+  --masterstudy-color--success-30: rgba(97, 204, 47, 0.3);
+  --masterstudy-color--success-10: rgba(97, 204, 47, 0.1);
+  --masterstudy-color--success-5: rgba(97, 204, 47, 0.05);
+  --masterstudy-color--success-hover: rgba(97, 204, 47, 0.85);
+  --masterstudy-color--white: #fff;
+  --masterstudy-color-dark-100: #001931;
+  --masterstudy-color-dark-80: rgba(77, 94, 111, 0.1);
+  --masterstudy-color-dark-70: #4d5e6f;
+  --masterstudy-color-dark-50: #808c98;
+  --masterstudy-color-dark-30: #b3bac2;
+  --masterstudy-color-dark-10: rgba(0, 25, 49, 0.1);
+  --masterstudy-color-dark-5: rgba(0, 25, 49, 0.05);
+}

@@ -1,0 +1,96 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  position: relative;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.changing-text,
+.fixed-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  line-height: 50px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.changing-text > span {
+  color: rgba(0, 238, 255, 0.856);
+}
+.below-changing-text {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.form-input {
+  position: relative;
+}
+.form-input > input {
+  margin-top: 3rem;
+  border: none;
+  border-radius: 0.4rem;
+  height: 50px;
+  padding: 1.3rem 1rem 1.3rem 2rem;
+  width: 100%;
+  font-size: 20px;
+}
+
+.form-input > input:focus {
+  outline: none;
+}
+
+.form-input > .search-icon-hero {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  transform: translate(50px, 55px);
+  right: 70px;
+  color: rgba(0, 0, 0, 0.377);
+}
+
+.form-input > .search-icon-hero:hover {
+  color: black;
+}
+.below-form-text {
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.below-formtext-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.below-formtext-images > img {
+  height: 100px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  margin: 0rem 0rem 0rem 2rem;
+}
+
+.search-icon-hero:hover {
+  cursor: pointer;
+}

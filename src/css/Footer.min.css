@@ -1,0 +1,182 @@
+.footer-container {
+  background-color: #042d89;
+  padding-top: 63px;
+  color: #ffff;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu {
+  display: flex;
+  padding: 0rem 2.5rem 0rem 2.5rem;
+}
+
+.about-footer,
+.popular-courses-footer,
+.pages-footer,
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 15px;
+  width: 25%;
+}
+
+.address-footer,
+.phone-number-footer,
+.mail-footer {
+  display: flex;
+}
+
+.about-footer > p {
+  text-align: justify;
+}
+
+.address-footer > div,
+.phone-number-footer > div,
+.mail-footer > div {
+  /* display: flex; */
+  margin-left: 1rem;
+}
+
+.mail-footer > div > p > a {
+  color: #ffff;
+  text-decoration: none;
+}
+.about-footer > p,
+.popular-courses-footer > .image-1,
+.pages-footer > ul,
+.contact-footer > div {
+  margin-top: 21px;
+}
+
+.pages-footer > h3 {
+  /* margin-left: -16px; */
+}
+.pages-footer > ul > li {
+  padding: 0.3rem;
+}
+.pages-footer > ul > li > a {
+  text-decoration: none;
+  color: #ffff;
+}
+.pages-footer > ul > li > a:hover {
+  color: #2575ed;
+}
+.faMapMarker,
+.faPhone,
+.faEnvelope {
+  font-size: 15px;
+  color: #eab830;
+}
+
+.footer-copyright {
+  background-color: aqua;
+  /* margin-top: 2rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: center;
+}
+.copyright-text > p > a {
+  color: white;
+}
+.copyright-text > p > a:hover {
+  color: #2575ed;
+}
+
+.copyright-socials {
+  display: flex;
+  justify-content: center;
+  background-color: #042d89;
+}
+.copyright-socials-content {
+  display: flex;
+  margin-left: 45rem;
+}
+
+.copyright-socials-content > div {
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.fb:hover,
+.behance:hover,
+.linkedin:hover {
+  color: #2575ed;
+}
+
+.image-1 > a,
+.image-2 > a {
+  display: flex;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.image-1 > a > img,
+.image-2 > a > img {
+  margin: 0rem 1rem 1rem 0rem;
+}
+
+.image-1-content > h5,
+.image-content-2 > h5 {
+  margin-bottom: 0.2rem;
+}
+.image-1-content > span,
+.image-2-content > span {
+  color: #aaa;
+}
+
+.mail-ezitech-footer:hover {
+  color: #2575ed;
+}
+
+@media (min-width: 350px) and (max-width: 480px) {
+  .about-footer > p {
+    text-align: justify;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+  }
+  .footer-container {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .popular-courses-footer,
+  .pages-footer,
+  .contact-footer,
+  .about-footer,
+  .copyright-text {
+    width: 100%;
+  }
+  .copyright-text > p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    text-wrap: wrap;
+  }
+  .copyright-text > p > a > u {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+  }
+  .pages-footer > ul > li {
+    margin-left: 1rem;
+  }
+  .address-footer > div,
+  .phone-number-footer > div,
+  .mail-footer > div {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}

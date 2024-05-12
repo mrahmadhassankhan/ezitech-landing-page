@@ -1,0 +1,69 @@
+.header-top-bar-container {
+  background-color: #3275db;
+  height: 37px;
+}
+
+.header-top-bar-container,
+.header-top-bar-left > ul,
+.header-top-bar-social-icons > ul,
+.header-top-bar-login-register > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-family: Poppins;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.header-top-bar-left,
+.header-top-bar-social-icons,
+.header-top-bar-login-register {
+  margin-left: 4rem;
+}
+.header-top-bar-left > ul > li,
+.header-top-bar-social-icons > ul > li,
+.header-top-bar-login-register > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0px 0.5rem 0px 0.5rem;
+}
+
+.vertical_divider {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 1px;
+  height: 12px;
+  background-color: #9a9a9a;
+}
+
+.header-top-bar-login-register > ul > li > a {
+  display: inline-block;
+  vertical-align: bottom;
+  text-decoration: none !important;
+  line-height: 1;
+  color: white;
+}
+
+@media (max-width: 990px) {
+  .header-top-bar-container {
+    height: 74px;
+    flex-direction: column;
+  }
+  .new-headertop .header-top-bar-left,
+  .header-top-bar-social-icons,
+  .header-top-bar-login-register {
+    margin-left: 1rem;
+  }
+
+  .new-headertop {
+    align-self: flex-end;
+  }
+  .header-top-bar-left {
+    order: 2;
+  }
+}

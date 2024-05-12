@@ -1,0 +1,94 @@
+.award-container {
+  font-family: "Montserrat", sans-serif;
+  margin: 2rem 7rem;
+}
+.heading-award {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #273044;
+}
+.heading-award > h2 {
+  font-weight: 600;
+}
+.award-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.info > p > strong > a {
+  color: #2575ed;
+  text-decoration: none;
+}
+
+.info > p > strong > a:hover {
+  color: #00c691;
+}
+
+.first-p,
+.second-p {
+  margin-bottom: 1.5rem;
+}
+
+.third-p {
+  margin-bottom: 1rem;
+}
+
+.award-image {
+  margin-right: 3rem;
+}
+
+.btn-eziline {
+  background-color: #2575ed;
+  font-size: 15px;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.btn-eziline:hover {
+  background-color: #042d89;
+  transition: all 0.3s;
+}
+
+.info > p {
+  text-align: justify;
+  font-weight: 300;
+}
+.info > p > strong {
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .award-container {
+    margin: 0;
+  }
+  .award-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    margin: 2rem 2rem;
+  }
+  .info > p {
+    text-align: justify;
+  }
+  .award-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
