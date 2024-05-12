@@ -30,7 +30,7 @@ const FooterElement = () => {
             <div className="image-1">
               <a href="https://ezitech.org/courses-ezitech/online-arbitrage-course-rawalpindi/">
                 <img
-                  src="public/static/Images/footer-1.webp"
+                  src="/static/Images/footer-1.webp"
                   alt=""
                   height={50}
                   width={50}
@@ -44,7 +44,7 @@ const FooterElement = () => {
             <div className="image-2">
               <a href="https://ezitech.org/courses-ezitech/adobe-illustrator-course-with-projects/">
                 <img
-                  src="public/static/Images/footer-2.webp"
+                  src="/static/Images/footer-2.webp"
                   alt=""
                   height={50}
                   width={50}
