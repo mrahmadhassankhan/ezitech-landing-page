@@ -22,8 +22,3 @@
   transform: translate(0px);
   visibility: visible;
 }
-
-@media (max-width: 575px) {
-  .image-header-back {
-  }
-}

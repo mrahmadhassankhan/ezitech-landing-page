@@ -18,10 +18,13 @@
   margin-top: 5px;
 }
 .logo-website > img {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
   width: 170px;
   height: 61px;
   border: 0;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .header-menu > ul > li > a {
@@ -75,17 +78,8 @@
   .search-with-heart > ul {
     display: none;
   }
-  .logo-website > img:nth-child(1) {
-    display: none;
-  }
-  .logo-website > img:nth-child(2) {
-    display: block;
-  }
   .header-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    padding-top: 10px;
+    display: none;
   }
   .header-menu > span {
     display: block;
@@ -97,5 +91,17 @@
   }
   .search-with-heart {
     display: none;
+  }
+}
+
+@media (min-width: 990px) {
+  .navbar-expanded {
+    display: none;
+  }
+  .logo-website > img {
+    display: block;
+  }
+  .header-menu > ul {
+    padding: 0;
   }
 }
