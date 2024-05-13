@@ -52,9 +52,6 @@
   margin-top: 21px;
 }
 
-.pages-footer > h3 {
-  /* margin-left: -16px; */
-}
 .pages-footer > ul > li {
   padding: 0.3rem;
 }
@@ -125,9 +122,12 @@
 }
 
 .image-1-content > h5,
-.image-content-2 > h5 {
+.image-content-2 > h5,
+.image-2-content > h5 {
   margin-bottom: 0.2rem;
+  font-size: 13px;
 }
+
 .image-1-content > span,
 .image-2-content > span {
   color: #aaa;
@@ -141,6 +141,12 @@
 }
 .copyright-text > p:nth-child(2) {
   display: none;
+}
+.about-footer > h3,
+.popular-courses-footer > h3,
+.pages-footer > h3,
+.contact-footer > h3 {
+  font-size: 20px;
 }
 
 @media (max-width: 765px) {
